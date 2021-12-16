@@ -1,2 +1,2 @@
-# oxiygen-shop
+# oxygen-shop
 This is oxygen shop theme project :)
