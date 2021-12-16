@@ -1,0 +1,50 @@
+/*
+    THEME BY SUDOPASSWDROOT
+    sudopasswdroot#0001
+*/
+.lupbg {
+    background-image:linear-gradient(120deg, blue, white);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.luplogo {
+    transition:transform .3s;
+    transform:scale(1);
+}
+.luplogo:hover {
+    transform:scale(1.1);
+}
+.font-wbold {
+    font-weight:bold!important;
+}
+.card {
+    margin-top:0.8rem;
+    margin-bottom:1.5rem;
+}
+.bar-lup {
+    display:none!important;    
+}
+.nav-link {
+    display:inline-block;
+    transition:display .3s;
+}
+.card-img-top {
+    transition:transform .3s;
+    transform:scale(1);
+    cursor:pointer;
+}
+.card-img-top:hover {
+    transform:scale(1.05);
+}
+.mt--1 {
+    margin-top:0.2rem;
+}
+@media screen and (max-width:992px) {
+    .nav-link {
+        display:none!important;    
+    }
+    .nav-link.bar-lup {
+        display:inline-block!important;    
+    }
+}
